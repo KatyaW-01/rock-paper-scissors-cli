@@ -48,7 +48,7 @@ export async function startGame(gameState) {
   showMainMenu(gameState);
 }
 
-function determineWinner(userChoice, computerChoice) {
+export function determineWinner(userChoice, computerChoice) {
   const winMap = { rock: "scissors", paper: "rock", scissors: "paper" };
   if (userChoice === computerChoice) return "tie";
   return winMap[userChoice] === computerChoice ? "win" : "lose";
