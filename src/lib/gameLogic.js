@@ -1,6 +1,5 @@
 import chalk from "chalk";
 import { select } from "@inquirer/prompts";
-import { gameState } from "./state.js";
 
 export async function showMainMenu(gameState) {
   const action = await select({
