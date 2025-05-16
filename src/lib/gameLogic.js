@@ -67,6 +67,6 @@ function showStats(gameState) {
   console.log(chalk.yellow(`Ties: ${gameState.stats.ties}`));
 }
 
-function resetGame(gameState) {
+export function resetGame(gameState) {
   gameState.stats = { wins: 0, losses: 0, ties: 0 };
 }
