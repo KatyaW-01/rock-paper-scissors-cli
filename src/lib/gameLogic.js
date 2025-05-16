@@ -54,7 +54,7 @@ export function determineWinner(userChoice, computerChoice) {
   return winMap[userChoice] === computerChoice ? "win" : "lose";
 }
 
-function updateStats(result, gameState) {
+export function updateStats(result, gameState) {
   if (result === "win") gameState.stats.wins += 1;
   else if (result === "lose") gameState.stats.losses += 1;
   else gameState.stats.ties += 1;
