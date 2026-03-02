@@ -1,5 +1,5 @@
 # Rock Paper Scissors CLI
-A python CLI allowing users to play rock paper scissors with the computer
+A Javascript CLI allowing users to play rock paper scissors with the computer
 ### Features
 * Main menu with four options: start game, see stats, reset stats, and quit
 * During game, computer chooses a random item
